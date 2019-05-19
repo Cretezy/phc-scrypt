@@ -44,6 +44,7 @@
     "verify"
   ],
   "main": "index.js",
+  "types": "index.d.ts",
   "files": [
     "index.js"
   ],
