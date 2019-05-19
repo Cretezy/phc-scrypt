@@ -91,7 +91,7 @@ For more details consult the scrypt paper [here][paper].
 ## Install
 
 ```bash
-npm install --save @phc/scrypt
+npm install --save @cretezy/phc-scrypt
 ```
 
 > Version 2 and higher requires Node v10.5.
@@ -99,7 +99,7 @@ npm install --save @phc/scrypt
 ## Usage
 
 ```js
-const scrypt = require('@phc/scrypt');
+const scrypt = require('@cretezy/phc-scrypt');
 
 // Hash and verify with scrypt and default configs
 const hash = await scrypt.hash('password');
